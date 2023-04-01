@@ -12,9 +12,6 @@ Click [here](https://www.kaggle.com/datasets/samaxtech/chinook-music-store-data)
 
 For this project, you will be assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information.
 
-Click [here](https://github.com/RishabhJain2404/Digital-Music-Store-Analysis-Using-SQL/files/11130175/Digital.music.store.created.tables.md)
- to view the created tables used for analysis in this project.
-
 
 The schema for the Chinook Database is provided below.
 
