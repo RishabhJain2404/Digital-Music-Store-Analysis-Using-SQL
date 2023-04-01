@@ -9,7 +9,7 @@ ORDER BY invoices_count DESC;
 
 Result Set:
 
-<img title="" src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%201.png" alt="" width="334">
+![result 1](https://user-images.githubusercontent.com/127675963/229294366-a3d2cdae-0403-4720-9ebe-28c85ac8429c.png)
 
 analysis
 
