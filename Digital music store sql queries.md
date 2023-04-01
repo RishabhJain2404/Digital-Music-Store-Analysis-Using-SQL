@@ -1,5 +1,7 @@
-heading
+Analysis Of Digital Music Store Data Using Sql
+---
 
+1. Let's find out the countries which have the most Invoices of our digital music store.
 ```sql
 SELECT billing_country,COUNT(billing_country) AS invoices_count
 FROM invoice
@@ -11,9 +13,13 @@ Result Set:
 
 ![result 1](https://user-images.githubusercontent.com/127675963/229294366-a3d2cdae-0403-4720-9ebe-28c85ac8429c.png)
 
-analysis
+USA has the most invoices among all the countries. The result set only shows the first ten rows of the query result. 
 
 ---
+
+2. Our digial music store would like to throw a promotional Music Festival in the city we made the most money. 
+The best city is the city that has the highest sum of invoice totals.
+Let's find out the city that has the best customers.
 ```sql
 SELECT billing_city, SUM(total) AS invoice_totals
 FROM invoice
@@ -26,9 +32,13 @@ Result Set:
 
 ![result 2](https://user-images.githubusercontent.com/127675963/229294443-94ea2553-9e33-43e0-bc07-bf2b91b4a35c.png)
 
-analysis
+Prague is the city that has the best customers with the highest sum of invoice totals.
 
 ---
+
+3. Let's find out who is the best customer of our digital music store.
+The customer who has spent the most money will be declared the best customer. 
+ 
 ```sql
 SELECT cust.customer_id, cust.first_name, cust.last_name, SUM(inv.total) AS total_spending
 FROM customer cust
@@ -43,9 +53,12 @@ Result Set:
 
 ![result 3](https://user-images.githubusercontent.com/127675963/229294778-7fa1d71d-2208-442e-991d-49cca1d40ee1.png)
 
-analysis
+Frantisek Wichterlova is the best customer who has spent the most money on our digital music store.
 
 ---
+
+4. We also want to find out the best customers from each country who have spent the most money on our digital music store. 
+Let's find out the best customers for each country.
 
 ```sql
 WITH RECURSIVE
@@ -77,9 +90,13 @@ Result Set:
 
 ![result 7](https://user-images.githubusercontent.com/127675963/229294931-e1fc401b-f307-46b3-a765-4491dae3ce70.png)
 
-analysis
+The best customer belongs to Czech Republic followed by Ireland, India and so on. The result set displays only the first ten rows of the query result.
 
 ---
+
+5. We want to find out the most popular music Genre for each country. 
+We determine the most popular genre as the genre with the highest amount 
+of purchases. Let's find out.
 
 ```sql
 WITH RECURSIVE
@@ -111,9 +128,11 @@ Result Set:
 
 ![result 4](https://user-images.githubusercontent.com/127675963/229295058-318d8584-4e87-4da2-bb43-fa2cf0781f36.png)
 
-analysis
+It seems that the Rock music genre is the most popular genre for most of the countries. The result set displays only the first ten rows of the query result.
 
 ---
+
+6.
 ```sql
 SELECT artist.artist_id, artist.name, COUNT(track.track_id) AS total_songs 
 FROM track
