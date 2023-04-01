@@ -132,7 +132,9 @@ It seems that the Rock music genre is the most popular genre for most of the cou
 
 ---
 
-6.
+6. Now that we know that our customers love rock music, we can decide which musicians to
+invite to play at the concert.
+Let's invite the top 10 artists who have written the most rock music in our dataset.
 ```sql
 SELECT artist.artist_id, artist.name, COUNT(track.track_id) AS total_songs 
 FROM track
@@ -149,9 +151,12 @@ Result Set:
 
 ![result 5](https://user-images.githubusercontent.com/127675963/229295152-3e54f4df-e775-4988-bc1b-ba20bec88232.png)
 
-analysis
+These are the top 10 artists who have written the most rock music in our dataset.
 
 ---
+
+7. We want to find which artist has earned the most according to the InvoiceLines.
+Then we will use this artist to find which customer has spent the most on this artist.
 ```sql
 WITH best_artist AS(
     SELECT artist.artist_id, artist.name AS artist_name,
@@ -183,9 +188,13 @@ Result Set:
 
 ![result 6](https://user-images.githubusercontent.com/127675963/229295243-1e496bd4-cdb7-4ff8-a5a0-abe9f46258e9.png)
 
-analysis
+Queen is the artist that has earned the most and Hugh O'Reilly is the customer that has spent the most on this artist.
+The result set displays only the first eight rows of the query result.
 
 ---
+
+8. We want to find all the track names that have a song length longer than the average
+song length.
 ```sql
 SELECT name AS track_name, milliseconds
 FROM track
@@ -200,9 +209,14 @@ Result Set:
 
 ![result 8](https://user-images.githubusercontent.com/127675963/229295345-c6c52ea6-5e39-49a8-92ba-386ad324f758.png)
 
-analysis
+These are the track names that have a song length longer than the average song length. The result set displays only the first eight rows of the query result.
 
 ---
+
+9. We want to find out the customer that has spent the most on music
+for each country along with the money they spent. 
+For countries where the top amount spent is shared, provide all customers who
+spent this amount.
 ```sql
 WITH RECURSIVE 
     customter_with_country_cte AS (
@@ -230,5 +244,7 @@ ORDER BY cwc.billing_country;
 Result Set:
 
 ![result 9](https://user-images.githubusercontent.com/127675963/229295415-ee68efb7-6bf8-4662-96a4-f78095ea9f50.png)
+
+These are the customers that have spent the most on music for each country along with their respective total spendings. The result set displays only the first eight rows of the query result.
 
 ---
