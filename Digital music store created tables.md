@@ -1,3 +1,5 @@
+## Creating The Tables
+---
 ```sql
 CREATE TABLE public.album (
     album_id character varying(50) NOT NULL,
@@ -5,6 +7,7 @@ CREATE TABLE public.album (
     artist_id character varying(30)
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.artist (
@@ -12,6 +15,7 @@ CREATE TABLE public.artist (
     name character varying(120)
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.customer (
@@ -30,6 +34,7 @@ CREATE TABLE public.customer (
     support_rep_id integer
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.employee (
@@ -51,6 +56,7 @@ CREATE TABLE public.employee (
     email character varying(30)
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.genre (
@@ -58,6 +64,7 @@ CREATE TABLE public.genre (
     name character varying(120)
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.invoice (
@@ -72,6 +79,7 @@ CREATE TABLE public.invoice (
     total double precision
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.invoice_line (
@@ -82,6 +90,7 @@ CREATE TABLE public.invoice_line (
     quantity double precision
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.media_type (
@@ -89,6 +98,7 @@ CREATE TABLE public.media_type (
     name character varying(120)
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.playlist (
@@ -96,6 +106,7 @@ CREATE TABLE public.playlist (
     name character varying(120)
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.playlist_track (
@@ -103,6 +114,7 @@ CREATE TABLE public.playlist_track (
     track_id integer
 );
 ```
+---
 
 ```sql
 CREATE TABLE public.track (
@@ -117,3 +129,4 @@ CREATE TABLE public.track (
     unit_price double precision
 );
 ```
+---
