@@ -128,7 +128,7 @@ LIMIT 10;
 
 Result Set:
 
-<img src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%205.png" title="" alt="" width="425">
+![result 5](https://user-images.githubusercontent.com/127675963/229295152-3e54f4df-e775-4988-bc1b-ba20bec88232.png)
 
 analysis
 
