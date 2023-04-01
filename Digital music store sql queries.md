@@ -75,7 +75,7 @@ ORDER BY total_spending DESC;
 
 Result Set:
 
-![](D:\Sql%20project-%20Digital%20music%20store%20analysis\result%207.png)
+![result 7](https://user-images.githubusercontent.com/127675963/229294931-e1fc401b-f307-46b3-a765-4491dae3ce70.png)
 
 analysis
 
