@@ -41,7 +41,7 @@ LIMIT 1;
 
 Result Set:
 
-<img title="" src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%203.png" alt="" width="833">
+![result 3](https://user-images.githubusercontent.com/127675963/229294778-7fa1d71d-2208-442e-991d-49cca1d40ee1.png)
 
 analysis
 
