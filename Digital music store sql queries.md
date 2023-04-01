@@ -109,7 +109,7 @@ ORDER BY purchases_per_genre DESC;
 
 Result Set:
 
-<img title="" src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%204.png" alt="" width="585">
+![result 4](https://user-images.githubusercontent.com/127675963/229295058-318d8584-4e87-4da2-bb43-fa2cf0781f36.png)
 
 analysis
 
