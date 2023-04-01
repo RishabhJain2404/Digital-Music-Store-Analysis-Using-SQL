@@ -210,6 +210,6 @@ ORDER BY cwc.billing_country;
 
 Result Set:
 
-<img src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%209.png" title="" alt="" width="673">
+![result 9](https://user-images.githubusercontent.com/127675963/229295415-ee68efb7-6bf8-4662-96a4-f78095ea9f50.png)
 
 ---
