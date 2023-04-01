@@ -13,6 +13,7 @@ Result Set:
 
 analysis
 
+---
 ```sql
 SELECT billing_city, SUM(total) AS invoice_totals
 FROM invoice
@@ -27,6 +28,7 @@ Result Set:
 
 analysis
 
+---
 ```sql
 SELECT cust.customer_id, cust.first_name, cust.last_name, SUM(inv.total) AS total_spending
 FROM customer cust
@@ -43,7 +45,7 @@ Result Set:
 
 analysis
 
-
+---
 
 ```sql
 WITH RECURSIVE
@@ -77,7 +79,7 @@ Result Set:
 
 analysis
 
-
+---
 
 ```sql
 WITH RECURSIVE
@@ -111,6 +113,7 @@ Result Set:
 
 analysis
 
+---
 ```sql
 SELECT artist.artist_id, artist.name, COUNT(track.track_id) AS total_songs 
 FROM track
@@ -129,6 +132,7 @@ Result Set:
 
 analysis
 
+---
 ```sql
 WITH best_artist AS(
     SELECT artist.artist_id, artist.name AS artist_name,
@@ -162,6 +166,7 @@ Result Set:
 
 analysis
 
+---
 ```sql
 SELECT name AS track_name, milliseconds
 FROM track
@@ -178,6 +183,7 @@ Result Set:
 
 analysis
 
+---
 ```sql
 WITH RECURSIVE 
     customter_with_country_cte AS (
@@ -205,3 +211,5 @@ ORDER BY cwc.billing_country;
 Result Set:
 
 <img src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%209.png" title="" alt="" width="673">
+
+---
