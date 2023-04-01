@@ -162,7 +162,7 @@ ORDER BY amount_spent DESC;
 
 Result Set:
 
-<img title="" src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%206.png" alt="" width="658">
+![result 6](https://user-images.githubusercontent.com/127675963/229295243-1e496bd4-cdb7-4ff8-a5a0-abe9f46258e9.png)
 
 analysis
 
