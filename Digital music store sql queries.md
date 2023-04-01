@@ -179,7 +179,7 @@ ORDER BY milliseconds DESC;
 
 Result Set:
 
-<img title="" src="file:///D:/Sql%20project-%20Digital%20music%20store%20analysis/result%208.png" alt="" width="727">
+![result 8](https://user-images.githubusercontent.com/127675963/229295345-c6c52ea6-5e39-49a8-92ba-386ad324f758.png)
 
 analysis
 
