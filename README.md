@@ -22,3 +22,5 @@ The schema for the Chinook Database is provided below.
 ![Digital music store database schema](https://user-images.githubusercontent.com/127675963/229241784-b87b8b31-79d2-4a56-b01b-6e881850efb8.png)
 
 
+
+View this project [here.](https://github.com/RishabhJain2404/Digital-Music-Store-Analysis-Using-SQL/blob/main/Digital%20music%20store%20sql%20queries.md)
