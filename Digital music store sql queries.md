@@ -248,3 +248,5 @@ Result Set:
 These are the customers that have spent the most on music for each country along with their respective total spendings. The result set displays only the first eight rows of the query result.
 
 ---
+
+- Analysis done in PostgreSQL.
