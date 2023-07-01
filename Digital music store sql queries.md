@@ -1,7 +1,7 @@
-Analysis Of Digital Music Store Data Using Sql
+Music Store Data Exploration Using Sql
 ---
 
-1. Let's find out the countries which have the most Invoices of our digital music store.
+1. Let's find out the countries which have the most Invoices of our music store.
 ```sql
 SELECT billing_country,COUNT(billing_country) AS invoices_count
 FROM invoice
@@ -17,7 +17,7 @@ USA has the most invoices among all the countries. The result set only shows the
 
 ---
 
-2. Our digial music store would like to throw a promotional Music Festival in the city we made the most money. 
+2. Our music store would like to throw a promotional Music Festival in the city we made the most money. 
 The best city is the city that has the highest sum of invoice totals.
 Let's find out the city that has the best customers.
 ```sql
@@ -36,7 +36,7 @@ Prague is the city that has the best customers with the highest sum of invoice t
 
 ---
 
-3. Let's find out who is the best customer of our digital music store.
+3. Let's find out who is the best customer of our music store.
 The customer who has spent the most money will be declared the best customer. 
  
 ```sql
@@ -53,11 +53,11 @@ Result Set:
 
 ![result 3](https://user-images.githubusercontent.com/127675963/229294778-7fa1d71d-2208-442e-991d-49cca1d40ee1.png)
 
-Frantisek Wichterlova is the best customer who has spent the most money on our digital music store.
+Frantisek Wichterlova is the best customer who has spent the most money on our music store.
 
 ---
 
-4. We also want to find out the best customers from each country who have spent the most money on our digital music store. 
+4. We also want to find out the best customers from each country who have spent the most money on our music store. 
 Let's find out the best customers for each country.
 
 ```sql
